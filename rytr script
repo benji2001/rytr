@@ -1,0 +1,4 @@
+
+  document.getElementsByClassName("style_button__SHA7S style_text__+R0eS style_medium__CsYAK")[2].click()
+  $x("//*[@id='alert-dialog-description--:rf:']/div/input")[0].value = "TITLE"
+  document.getElementsByClassName("style_button__SHA7S style_primary__aA3ci style_medium__CsYAK")[0].click()
