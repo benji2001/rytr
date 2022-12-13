@@ -64,6 +64,6 @@ button = $x("/html/body/div[1]/div/div[1]/form/div[2]/button")[0]
 simulate(button, "click")
 
   document.getElementsByClassName("style_button__SHA7S style_text__+R0eS style_medium__CsYAK")[2].click()
-  $x("//*[@id='alert-dialog-description--:rf:']/div/input")[0].value = "TITLE"
+  $x("/html/body/reach-portal[7]/div[3]/div/div/div/form/div[2]/div/input")[0].value = "TITLE"
   document.getElementsByClassName("style_button__SHA7S style_primary__aA3ci style_medium__CsYAK")[0].click()
   
