@@ -1,8 +1,32 @@
-
+MAKE HEADLINES AND DOWNLOAD HTML FILES
 
 document.getElementsByClassName("style_button__SHA7S style_text__+R0eS style_medium__CsYAK")[2].click()
 $x("/html/body/reach-portal[" + i.toString() + "]/div[3]/div/div/div/form/div[2]/div/input")[0].value = "TITLE"
 document.getElementsByClassName("style_button__SHA7S style_primary__aA3ci style_medium__CsYAK")[1].click()
 $x('//*[@id="root"]/div/div[1]/form/div[3]/div/div/input')[0].value="hello"
 document.getElementsByClassName("style_button__SHA7S style_primary__aA3ci style_medium__CsYAK")[0].click()
-  
+
+
+GENERATE TEXT FILES FROM HEADLINES
+
+from bs4 import BeautifulSoup
+soup = BeautifulSoup(html)
+print(soup.get_text())
+
+
+CREATE A DICTIONARY OF ALL HEADLINES AND KEYWORDS
+
+myTitles = {
+  "TITLE!" : {
+    "name" : "Emil",
+    "year" : 2004
+  },
+  "child2" : {
+    "name" : "Tobias",
+    "year" : 2007
+  },
+  "child3" : {
+    "name" : "Linus",
+    "year" : 2011
+  }
+}
