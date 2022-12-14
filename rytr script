@@ -65,5 +65,5 @@ simulate(button, "click")
 
 document.getElementsByClassName("style_button__SHA7S style_text__+R0eS style_medium__CsYAK")[2].click()
 $x("/html/body/reach-portal[" + i.toString() + "]/div[3]/div/div/div/form/div[2]/div/input")[0].value = "TITLE"
-document.getElementsByClassName("style_button__SHA7S style_primary__aA3ci style_medium__CsYAK")[0].click()
+document.getElementsByClassName("style_button__SHA7S style_primary__aA3ci style_medium__CsYAK")[1].click()
   
